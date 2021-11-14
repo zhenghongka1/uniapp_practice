@@ -1,0 +1,133 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "购物车 ",
+				"navigationBarBackgroundColor": "#b50e03",
+				"backgroundColor": "#F8F8F8"	
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "详情 ",
+				"navigationBarBackgroundColor": "#b50e03",
+				"backgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的 ",
+				"navigationBarBackgroundColor": "#b50e03",
+				"backgroundColor": "#F8F8F8"	
+			}
+		}, {
+			"path": "pages/consult/consult",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "热门 ",
+				"navigationBarBackgroundColor": "#b50e03",
+				"backgroundColor": "#F8F8F8"				
+			}
+		}, 
+		{
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "HK超市 ",
+				"navigationBarBackgroundColor": "#b50e03",
+				"backgroundColor": "#F8F8F8"				
+			}
+
+		}
+	    ,{
+            "path" : "pages/connect/connect",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "客服 ",
+				"navigationBarBackgroundColor": "#b50e03",
+				"backgroundColor": "#F8F8F8"				
+			}
+            
+        }
+        ,{
+            "path" : "pages/picture/picture",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "分类图片 ",
+				"navigationBarBackgroundColor": "#b50e03",
+				"backgroundColor": "#F8F8F8"				
+			}
+            
+        }
+        ,{
+            "path" : "pages/stuVideo/stuVideo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "热门视频 ",
+				"navigationBarBackgroundColor": "#b50e03",
+				"backgroundColor": "#F8F8F8"				
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "HK商城 ",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#b50e03",
+		"color": "#ccc ",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-active.png"
+			},
+			{
+				"text": "热门",
+				"pagePath": "pages/consult/consult",
+				"iconPath": "static/icon/news.png",
+				"selectedIconPath": "static/icon/news-active.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/icon/cart.png",
+				"selectedIconPath": "static/icon/cart-active.png"
+			},
+			{
+				"text": "会员",
+				"pagePath": "pages/member/member",
+				"iconPath": "static/icon/member.png",
+				"selectedIconPath": "static/icon/member-active.png"
+			}
+		]
+	}
+}
+

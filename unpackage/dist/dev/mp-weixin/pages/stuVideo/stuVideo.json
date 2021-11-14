@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "热门视频 ",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#b50e03",
+  "backgroundColor": "#F8F8F8",
+  "usingComponents": {}
+}

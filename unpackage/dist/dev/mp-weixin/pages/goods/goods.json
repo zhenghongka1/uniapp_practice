@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "HK超市 ",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#b50e03",
+  "backgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "goods-list": "/components/goods_list/goods_list"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "详情 ",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#b50e03",
+  "backgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "uni-goods-nav": "/uni_modules/uni-goods-nav/components/uni-goods-nav/uni-goods-nav"
+  }
+}

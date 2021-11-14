@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "分类图片 ",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#b50e03",
+  "backgroundColor": "#F8F8F8",
+  "usingComponents": {}
+}

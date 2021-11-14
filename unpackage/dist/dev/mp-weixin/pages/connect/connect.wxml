@@ -1,0 +1,1 @@
+<view class="contact"><image src="../../static/gywmban.jpg" mode="widthFix"></image><view class="info"><view data-event-opts="{{[['tap',[['phone',['$event']]]]]}}" bindtap="__e">联系电话：400-618-9999（点击拨打）</view><view>小区：宇宙的中银河系的地球的中国的广东的深圳的龙岗区</view></view><map></map></view>

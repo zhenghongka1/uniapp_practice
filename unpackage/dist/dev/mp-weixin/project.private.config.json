@@ -1,0 +1,42 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/picture/picture",
+                    "pathName": "pages/picture/picture",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/consult/consult",
+                    "pathName": "pages/consult/consult",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/news/news",
+                    "pathName": "pages/news/news",
+                    "query": "goods_id=57354",
+                    "scene": null
+                },
+                {
+                    "name": "pages/member/member",
+                    "pathName": "pages/member/member",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}
